@@ -2,9 +2,6 @@
 
 Ce projet vise à développer un interprète de commandes shell en implémentant différentes fonctionnalités. L'embryon de shell fourni dans le répertoire "fork-exec" est capable d'analyser les lignes de commande et d'afficher le résultat de cette analyse. Le programme utilise une fonction d'analyse syntaxique qui renvoie un arbre syntaxique représentant la structure des commandes.
 
-### Structure de données
-L'arbre syntaxique est représenté par une structure de données définie comme suit :
-
 ## Instructions
 
 1. Compilez le programme en utilisant la commande `gcc -o Shell Shell.c`.
